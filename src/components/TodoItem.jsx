@@ -10,7 +10,7 @@ function TodoItem({ todo }) {
 
     const [isTodoEditable, setIsTodoEditable] = useState(false)
 
-    const [mark, setMark] = useState(false)
+    const [mark, setMark] = useState(todo.completed)
 
     const [todoValue, setTodoValue] = useState(todo.todo)
 
