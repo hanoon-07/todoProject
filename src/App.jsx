@@ -35,6 +35,7 @@ function App() {
     localStorage.setItem("todos", JSON.stringify(todos))
   }, [todos])
 
+  useEffect(()=>{console.log(todos)},[todos])
 
 
 

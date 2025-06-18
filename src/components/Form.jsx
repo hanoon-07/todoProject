@@ -4,11 +4,13 @@ import { useTodo } from '../contexts/TodoContext';
 
 function Form() {
     const [todoValue, setTodoValue] = useState("")
+
     const {addTodo} = useTodo()
 
     const add = (e) => {
         e.preventDefault()
         addTodo({todo:todoValue, completed:false})
+        setTodoValue('');
 
     }
 
