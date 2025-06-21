@@ -52,7 +52,7 @@ useEffect(() => {
 
 1. Clone the repository
 
-git clone https://github.com/your-username/react-todo-app.git  
+git clone https://github.com/hanoon-07/react-todo-app.git  
 cd react-todo-app
 
 2. Install dependencies
